@@ -1,0 +1,172 @@
+body {
+    cursor: pointer;
+}
+/* navbar */
+
+.nav {
+    
+    background-image: url(./img/bg.avif);
+}
+
+.nav-item a {
+    color: #445c2e;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.btn-hover:hover {
+    background-color: rgba(76, 58, 58, 0.082);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* about */
+
+.bg {
+    background: linear-gradient(rgba(46, 13, 13, 0.862), rgba(56, 26, 26, 0.82)),
+    url(./img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.hero span {
+    color: rgba(13, 0, 0, 0.95);
+}
+
+.shampoo {
+    animation: a1 6s linear;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+
+@keyframes a1 {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.hero-btn {
+    background-color: black;
+    border-color: black;
+}
+
+.hero-btn:nth-child(2) {
+    background-color: transparent;
+    border-color: #182300;
+}
+
+.hero-btn:nth-child(2):hover {
+    background-color: black;
+}
+
+.hero-btn:nth-child(1):hover {
+    background-color: black;
+    border-color: black;
+}
+
+/* explain */
+
+.exp span {
+    color: #510d0ddf
+}
+
+.btn-shop {
+    background-color: #510d0ddf
+}
+
+.btn-shop:hover {
+    background-color: #182300;
+}
+
+/* -Deals */
+
+.deals {
+    background-color: #2c0e092d;
+    background-image: url(./img/bg.png);
+}
+
+.deal {
+    color: #445c2e;
+}
+
+/* benifits */
+
+.beni:hover {
+    background-image: url(./img/bg.png);
+    cursor: pointer;
+    background-color: #510d0ddf;
+    color: #182300;
+}
+
+/* -products- */
+
+.star {
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #510d0ddf;
+}
+
+.star-2 {
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #510d0ddf;
+}
+
+.star-3 {
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #510d0ddf;
+}
+
+.star-4 {
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #510d0ddf;
+}
+
+.product:hover {
+    margin-left: -10px;
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+.product-btn {
+    background-color: transparent;
+    color: #510d0ddf;
+}
+
+.product-btn:hover {
+    background-color: #445c2e;
+    color: white;
+    border: #445c2e;
+}
+
+.ico:hover {
+    background-color: #182300;
+    cursor: pointer;
+}
+
+.list li a {
+    color: #65656A;
+}
+
+.list li a:hover {
+    color: #4012126c;
+    margin-left: -10px;
+    margin-top: -10px;
+}
